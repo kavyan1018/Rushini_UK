@@ -46,3 +46,13 @@ Alpha Said Beta "Gamma is teasing Delta but Gamma says he didn't tease  Delta."
 The location of Python interpreter is: "C:\program files\new folder\temp\python\"
 """
 
+
+print('Alpha Said Beta "Gamma is teasing Delta."')
+
+print('Alpha Said Beta "Gamma is teasing Delta but Gamma says he', "didn't", 'tease  Delta."')
+
+
+print('The location of Python interpreter is: "C:\program files\\new folder\\temp\python\\"')
+
+# why we use \\ in the above print?
+# \ is an escape character in python. It is used to escape the special characters.
