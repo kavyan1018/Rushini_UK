@@ -16,11 +16,12 @@
 
 # print("Python is fun\b\b\b Awesome!", end="\b")
 
-print("Python is fun and Awesome!", end="")
+# print("Python is fun and Awesome!", end="")
 
-print("I Love Python Programing", end="\b\b\b\b\b\b")
+# print("I Love Python Programing", end="\b\b\b\b\b\b")
 
-print("Python is fun Awesome!", end="\n")
+# print("Python is fun Awesome!", end="\n")
 
 # print("Python is Fun\b\b\bR")
 
+print("I Like Python", end="\b\b\b\b\b") # SyntaxError: unexpected character after line continuation character
