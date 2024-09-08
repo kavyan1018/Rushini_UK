@@ -13,6 +13,8 @@
 # 3. Multiplication
 # 4. Division
 # 5. Modulus
+# 6. Exponentiation
+# 7. Floor Division
 
 # Example 1: Addition
 
@@ -39,14 +41,49 @@ print("Multiplication is :- ",c)'''
 
 # Example 4: Division
 
-'''c = 10
-d = 5
-e = c / d
-print("Division is :- ",e)'''
+# c = 10
+# d = 5
+# e = c / d
+# print("Division is :- ",e)
 
 # Example 5: Modulus
 
-a = 10
+'''a = 10
 b = 5
 c = a % b
-print("Modulus is :- ",c)
+print("Modulus is :- ",c)'''
+
+# Example 6: Exponentiation  
+
+# What is Exponentiation?
+# Exponentiation is the raising of one number to the power of another number.
+
+# how to calculate Exponentiation in python?
+# In python, we use the ** operator to calculate the Exponentiation.
+
+# it like a square of a number
+# it will conunt the power of a number
+
+'''a = 2
+b = 3
+c = a ** b
+print("Exponentiation is :- ",c)'''
+
+# Example 7: Floor Division
+
+# What is Floor Division?
+# Floor Division is the division of operands where the result is the quotient in which the digits after the decimal point are removed.
+
+# a = 10
+# b = 3
+
+# c = a // b
+# print("Floor Division is :- ",c)
+
+
+# example of Exponentiation
+
+"""a = 5
+b = 2
+c = a ** b
+print("Exponentiation is :- ",c)"""
