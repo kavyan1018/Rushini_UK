@@ -4,6 +4,7 @@
 # 2. Assignment Operators
 # 3. Comparison Operators
 # 4. Logical Operators
+# 5. Bitwise operators
 
 # Arithmetic Operators
 
