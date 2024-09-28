@@ -20,7 +20,7 @@
 
 # Two possible values: True or False.
 
-# True: If deliveryDistance is less than or equal to 5.
+# True: If deliveryDistance is less than or equal to 5. 
 # False: If deliveryDistance is greater than 5.
 
 
@@ -34,6 +34,7 @@
 # State one other common data type that you have not given in your answer to  Question 02.3. 
 # int
 
+# ------------------------------------------------------------------------------------------------------------
 
 # Take input from user in numbers and print weekdays.(1- monday , 2- tuesday ..... 7- sunday)
 
@@ -44,6 +45,7 @@
 # 5. Friday 
 # 6. Saturday
 # 7. Sunday
+"""
 
 day = int(input("Enter a number between 1 and 7: "))
 
@@ -61,4 +63,17 @@ elif day == 6:
     print("Saturday")
 elif day == 7:
     print("Sunday")
+"""
 
+
+# ------------------------------------------------------------------------------------------------------------
+
+# Write a program that takes a number from the user check the number is devide by 3 and 11 or not 
+
+
+a = int(input("Enter a number: "))
+
+if a % 3 == 0 and a % 11 == 0:
+    print("The number is divisible by 3 and 11")
+else:
+    print("The Number is Not Divisible by 3 and 11")
