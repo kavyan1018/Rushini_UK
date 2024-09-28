@@ -71,9 +71,51 @@ elif day == 7:
 # Write a program that takes a number from the user check the number is devide by 3 and 11 or not 
 
 
-a = int(input("Enter a number: "))
+# a = int(input("Enter a number: "))
 
-if a % 3 == 0 and a % 11 == 0:
-    print("The number is divisible by 3 and 11")
-else:
-    print("The Number is Not Divisible by 3 and 11")
+# if a % 3 == 0 and a % 11 == 0:
+#     print("The number is divisible by 3 and 11")
+# else:
+#     print("The Number is Not Divisible by 3 and 11")
+
+
+"""
+Write  a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer, calculate percentage and grade according to given conditions:
+
+	If percentage >= 90% : Grade A
+	If percentage >= 80% : Grade B
+	If percentage >= 70% : Grade C
+	If percentage >= 60% : Grade D
+	If percentage >= 40% : Grade E
+	If percentage < 40% : Grade F
+"""
+
+phy = float(input("Enter the Marks of Physics :"))
+che = float(input("Enter the Marks of Chemistry :"))
+Bio = float(input("Enter the Marks of Biology :"))
+Math = float(input("Enter the Marks of Math :"))
+Com = float(input("Enter the Marks of Computer :"))
+
+
+sum = phy + che + Bio + Math + Com
+percentage = (sum / 500) * 100
+
+print("The sum of Total is :",sum)
+print("The total persantage is :",percentage)
+
+if percentage >= 90:
+    print("Grade A")
+elif percentage >= 80 and percentage < 90:
+    print("Grade B")
+elif percentage >= 70 and percentage < 80:
+    print("Grade C")
+elif percentage >= 70 and percentage < 60:
+    print("Grade D")
+elif percentage >= 60 and percentage < 70:
+    print("Grade E")
+elif percentage >= 50 and percentage <= 60:
+    print("Garde F")
+elif percentage >= 40 and percentage < 50:
+    print("Grade G")
+else :
+    print("Your are Fail !")
