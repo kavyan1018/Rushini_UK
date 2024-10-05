@@ -21,6 +21,9 @@
 # print("len",l)
 
 
+
+
+
 # take input from user and print the length of the string
 
 name = input("Enter your name: ")
