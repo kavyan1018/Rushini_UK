@@ -1,14 +1,15 @@
 Types of inbuilt string functions in python
 
-len
-upper
-lower
-chr
-ord
+len => length of string 
+upper => convert string to upper case
+lower => convert string to lower case
+chr => convert ascii to character
+ord => convert character to ascii
 
-title
-capitalize
-swapcase
+title => convert first letter of each word to upper case
+capitalize => convert first letter of first word to upper case
+swapcase => convert upper case to lower case and vice versa
+
 isalpha
 isdigit
 isalnum
