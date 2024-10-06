@@ -1,0 +1,25 @@
+Types of inbuilt string functions in python
+
+len
+upper
+lower
+chr
+ord
+
+title
+capitalize
+swapcase
+isalpha
+isdigit
+isalnum
+isspace
+isupper
+islower
+startswith
+endswith
+find
+index
+isPrintable
+strip
+lstrip
+rstrip
