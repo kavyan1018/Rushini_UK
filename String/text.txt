@@ -16,6 +16,7 @@ isalnum
 isspace
 isupper
 islower
+
 startswith
 endswith
 find
