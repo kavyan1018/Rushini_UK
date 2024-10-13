@@ -88,3 +88,20 @@ Word Processing Software: Create, edit, and format text documents. Examples incl
 Spreadsheet Software: Organize and analyze data in tabular form. Examples include Microsoft Excel, Google Sheets, and LibreOffice Calc.
 Graphics Software: Create and edit images, illustrations, and animations. Examples include Adobe Photoshop, GIMP, and CorelDRAW.
 Database Software: Store, retrieve, and manage data in a structured format. Examples include Microsoft Access, MySQL, and Oracle Database.
+
+
+
+4. Classifcation of programming languages and translators
+
+Programming Languages
+-----------------------
+Programming languages are used to write instructions that tell a computer how to perform tasks. They are designed to be human-readable and are translated into machine code for execution. Programming languages can be classified into several categories based on their characteristics and features:
+
+Low-Level Languages: These languages are close to machine code and provide direct control over hardware resources. Examples include Assembly language and machine code.
+
+High-Level Languages: These languages are closer to human language and are easier to read and write. They are more abstract and provide higher-level constructs for programming. Examples include Python, Java, C++, and JavaScript.
+
+differences between low-level and high-level languages
+-------------------------------------------------------
+
+in Group 1
