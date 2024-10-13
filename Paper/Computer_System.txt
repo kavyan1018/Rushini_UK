@@ -1,0 +1,25 @@
+Definition of Hardware
+-----------------------
+
+Hardware refers to the physical components of a computer system that you can touch and see. 
+
+These components include:
+
+input devices : (keyboard, mouse, scanner)
+output devices : (monitor, printer, speakers)
+internal components : (CPU, RAM, hard drive, mother board)
+
+CPU : Central Processing Unit
+RAM : Random Access Memory
+
+
+
+Definition of Software
+-------------------------
+
+Software is the set of instructions that tell the hardware what to do. It is intangible and cannot be touched or seen.
+
+System software : (operating system, device drivers)
+operating system : (Windows, Mac OS, Linux) which is manage the hardware resources
+
+Application software : Program designed for users to perform specific tasks. (Word, Excel, Photoshop)
