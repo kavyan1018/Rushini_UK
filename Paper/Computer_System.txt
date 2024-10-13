@@ -23,3 +23,21 @@ System software : (operating system, device drivers)
 operating system : (Windows, Mac OS, Linux) which is manage the hardware resources
 
 Application software : Program designed for users to perform specific tasks. (Word, Excel, Photoshop)
+
+
+
+Relationship Between Hardware and Software
+--------------------------------------------
+
+Dependence: Hardware and software are interdependent. Hardware cannot function without software to tell it what to do, and software cannot operate without the physical resources provided by hardware.
+
+
+Interaction: Software sends instructions to the hardware. For example, when you run a program, the software communicates with the CPU to perform computations, RAM to store temporary data, and storage drives to save files.
+
+u type code in vs --> it is software
+u see the output in monitor --> it is hardware
+internal process of computer system vs code -> cpu(binarry code) -> ram -> hard drive -> mother board -> monitor
+
+Examples:
+A printer (hardware) needs printer driver software to understand and execute the commands sent by a computer.
+The CPU executes instructions from system software like the operating system to manage resources like memory and storage.
