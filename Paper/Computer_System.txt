@@ -36,8 +36,29 @@ Interaction: Software sends instructions to the hardware. For example, when you 
 
 u type code in vs --> it is software
 u see the output in monitor --> it is hardware
-internal process of computer system vs code -> cpu(binarry code) -> ram -> hard drive -> mother board -> monitor
+internal process of computer system --> vs code -> cpu(binarry code) -> ram -> hard drive -> mother board -> monitor
 
 Examples:
 A printer (hardware) needs printer driver software to understand and execute the commands sent by a computer.
 The CPU executes instructions from system software like the operating system to manage resources like memory and storage.
+
+
+Logic Gates and Truth Tables including combined logic gates 
+
+
+Logic Gates
+------------
+Logic gates are the building blocks of digital circuits. They perform basic logical functions based on Boolean algebra. There are seven basic logic gates:
+
+
+AND Gate: Output is true only if all inputs are true.
+OR Gate: Output is true if any input is true.
+NOT Gate: Output is the opposite of the input.
+XOR Gate: Output is true if exactly one input is true.
+
+Examples : 
+
+take input from usear and cheak the number is divisible by 3 and 11 or not   -> And gate  &&
+take input from user and cheak the number is even or odd   -> Or gate  ||
+take input from user and cheak the number is positive or negative   -> Not gate  !
+take input from user and cheak the number is prime or not   -> Xor gate  ^
