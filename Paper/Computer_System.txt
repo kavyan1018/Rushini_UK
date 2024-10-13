@@ -43,7 +43,7 @@ A printer (hardware) needs printer driver software to understand and execute the
 The CPU executes instructions from system software like the operating system to manage resources like memory and storage.
 
 
-Logic Gates and Truth Tables including combined logic gates 
+2. Logic Gates and Truth Tables including combined logic gates 
 
 
 Logic Gates
@@ -62,3 +62,29 @@ take input from usear and cheak the number is divisible by 3 and 11 or not   -> 
 take input from user and cheak the number is even or odd   -> Or gate  ||
 take input from user and cheak the number is positive or negative   -> Not gate  !
 take input from user and cheak the number is prime or not   -> Xor gate  ^
+
+
+3.Software classifcation
+
+Software Classification
+-------------------------
+Software can be classified into two main categories: 
+system software 
+application software.
+
+System Software
+----------------
+System software is designed to manage the hardware resources of a computer system. It provides a platform for running application software and interacts with the hardware to perform tasks. Examples of system software include:
+
+Operating Systems: Manage hardware resources and provide a user interface for interacting with the computer. Examples include Windows, macOS, and Linux.
+Device Drivers: Control specific hardware devices like printers, scanners, and graphics cards.
+Utilities: Perform maintenance tasks like disk cleanup, antivirus scanning, and system optimization.
+
+Application Software
+----------------------
+Application software is designed to perform specific tasks for users. It is created to meet the needs of individuals, businesses, and organizations. Examples of application software include:
+
+Word Processing Software: Create, edit, and format text documents. Examples include Microsoft Word, Google Docs, and LibreOffice Writer.
+Spreadsheet Software: Organize and analyze data in tabular form. Examples include Microsoft Excel, Google Sheets, and LibreOffice Calc.
+Graphics Software: Create and edit images, illustrations, and animations. Examples include Adobe Photoshop, GIMP, and CorelDRAW.
+Database Software: Store, retrieve, and manage data in a structured format. Examples include Microsoft Access, MySQL, and Oracle Database.
