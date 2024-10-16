@@ -275,3 +275,65 @@ This scalability is crucial for evolving business and personal computing needs.
 11) Separation of Storage and Processing:
 By keeping data separate from the processing unit, it allows for more flexible system architectures.
 This separation also contributes to data safety, as processing errors are less likely to directly corrupt stored data.
+
+
+
+Be aware of different types of secondary storage (solid state, optical and magnetic).
+Explain the operation of solid state, optical and magnetic storage.
+Discuss the advantages and disadvantages of solid state, optical and magnetic storage.
+
+
+Be aware of different types of secondary storage (solid state, optical and magnetic).
+-------------------------------------------------------------------------------------
+
+1. Solid Satge Storage : Uses flash memory with no moving parts
+Examples include SSDs (Solid State Drives) and USB flash drives
+Advantages: Fast read/write speeds, durable, low power consumption
+Disadvantages: More expensive per GB than other options
+
+2. Optical Storage: Uses lasers to read/write data on spinning discs
+Examples include CDs, DVDs, and Blu-ray discs
+Advantages: Portable, relatively cheap, good for long-term archiving
+Disadvantages: Slower than other options, limited capacity, can be scratched
+
+
+3. Magnetic Storage: Uses magnetic fields to store data on spinning platters
+Examples include HDDs (Hard Disk Drives) and magnetic tape
+Advantages: High capacity, relatively inexpensive per GB
+Disadvantages: Moving parts make them more prone to failure, slower than SSDs
+
+------------------------------------------------------------------
+Explain the term cloud storage :
+
+Cloud storage refers to a service model where data is stored, managed, and backed up remotely on servers accessed via the internet, rather than on a local device or physical server. Users can upload, access, and share their data from anywhere with an internet connection. 
+
+Key characteristics of cloud storage include: -->
+1. Accessibility: Data can be accessed anytime and from any device connected to the internet.
+2. Scalability: Storage capacity can be easily scaled up or down according to user needs without additional hardware.
+3. Cost-effectiveness: Cloud storage eliminates the need for physical storage devices and reduces maintenance costs.
+4. Data Backup and Recovery: Providers often offer automatic backups and disaster recovery options.
+5. Security: Data stored in the cloud is protected with encryption and other security measures, though it's important to use trusted providers.
+
+Popular cloud storage services include Google Drive, Dropbox, Microsoft OneDrive, and Amazon S3.
+
+
+
+Explain the advantages and disadvantages of cloud storage when compared to local storage.
+
+-----------------------------------------------------------------------------------------------
+
+Understand the term embedded system and explain how an embedded system differs from a non-embedded system
+
+
+Embedded System : 
+
+An embedded system is a specialized computing system that performs dedicated functions or tasks within a larger mechanical or electrical system. It is "embedded" as part of the device it controls, often with real-time computing constraints. Embedded systems are designed for specific tasks, unlike general-purpose computers, and are typically optimized for efficiency, speed, and reliability in performing those tasks.
+
+Examples of Embedded Systems:
+Smartwatches
+Washing machines
+ATMs
+Automotive control systems (e.g., anti-lock brakes)
+Medical devices (e.g., pacemakers)
+
+system differs from a non-embedded system ---> in grop Photo 
