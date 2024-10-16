@@ -105,3 +105,173 @@ differences between low-level and high-level languages
 -------------------------------------------------------
 
 in Group 1
+
+
+------------------------------------------------------------------------
+Systems architecture :
+
+1. Genral Prinicples of Computer Architecture
+2. specific architecture patterns (Ex. microservices, serverless, event-driven)
+3. Enterprise architecture
+4. Cloud architecture
+5. Security architecture
+6. Network architecture
+7. A perticular architecture stack of framworking
+
+Von Neumann
+architecture:
+• arithmetic logic unit
+• control unit
+• clock
+• register
+• bus.
+
+
+1. architecture logic unit : perform arithmetic and logical operations
+
+arithmetic operations : addition, subtraction, multiplication, division
+logical operations : AND, OR, NOT, XOR
+
+
+2. control unit : manage the execution of instructions and data flow within the CPU
+fetch : get the instruction from memory
+decode : interpret the instruction
+execute : perform the operation
+store : save the result back to memory
+
+
+3. clock : synchronize the operations of the CPU and other components of the computer system
+
+
+4. register : temporary storage locations within the CPU for data and instructions
+accumulator : store the result of arithmetic and logical operations
+program counter : keep track of the memory address of the next instruction to
+
+
+5. bus : communication channels that transfer data between components of the computer system
+data bus : transfer data between the CPU, memory, and other devices
+address bus : specify the memory address for read and write operations
+control bus : carry control signals for coordinating data transfer
+
+
+Explain the effect of the following on the performance of the CPU:
+• clock speed
+• number of processor cores
+• cache size.
+
+1. Clock Speed: The clock speed of a CPU determines how many instructions it can execute per second. A higher clock speed means the CPU can process more instructions in a given time, leading to faster performance. However, increasing the clock speed also generates more heat and consumes more power, which can affect the overall efficiency and reliability of the CPU.
+
+What is the meaning of determines  ?
+-> decide or control the outcome or result of something
+
+
+2. number of processor cores: The number of processor cores in a CPU determines how many tasks it can handle same time. Each core can execute instructions independently, allowing for parallel processing and improved performance. A CPU with more cores can run multiple programs or processes concurrently, leading to faster response times and better multitasking capabilities.
+
+
+What is the meaning of simultaneously ?
+-> at the same time
+
+types of processor ?
+-> single-core processor
+-> dual-core processor
+-> quad-core processor
+-> octa-core processor
+
+Fetch
+Decode
+Execute
+Store
+
+Understand and explain the Fetch-Execute cycle.
+---------------------------------------------------
+
+The Fetch-Execute cycle is the basic operation of a CPU that executes instructions stored in memory. It consists of two main steps:
+
+
+
+1. Fetch: The CPU retrieves the next instruction from memory using the program counter, which stores the memory address of the instruction. The instruction is loaded into the instruction register for decoding and execution.
+
+
+2 . Execute: The CPU decodes the instruction to determine the operation to be performed and the operands involved. It then executes the instruction by performing the specified operation, such as arithmetic, logical, or data transfer. The result is stored in the appropriate register or memory location.
+
+
+3. Decode : The CPU interprets the instruction to determine the operation to be performed and the data involved. It decodes the instruction to understand the operation and the operands.
+
+examle : Char -> Decimal Value -> Binary Value
+
+4. Store : The CPU saves the result of the executed instruction back to memory or a register for future use. The result may be stored in the accumulator, a general-purpose register, or a specific memory location.
+
+Understand the different types of memory within a computer:
+• RAM
+• ROM
+• Cache
+• Register
+
+1. RAM (Random Access Memory): RAM is a type of volatile memory that stores data and instructions temporarily while the computer is running. It is used to store the operating system, applications, and data that are actively being used by the CPU. RAM is fast but loses its contents when the computer is turned off.
+
+2. ROM (Read-Only Memory): ROM is a type of non-volatile memory that stores firmware and essential system instructions that do not change. It contains the BIOS (Basic Input/Output System) and boot loader code required to start the computer. ROM retains its contents even when the computer is turned off.
+
+3. Cache: Cache memory is a small, high-speed memory located within the CPU or between the CPU and main memory. It stores frequently accessed data and instructions to speed up processing and reduce latency. Cache memory is faster than RAM but smaller in size.
+
+4. Register: Registers are small, high-speed storage locations within the CPU used to store data, instructions, and memory addresses during program execution. Registers are the fastest type of memory and are used for temporary storage of operands and results during arithmetic and logical operations.
+
+
+------------------------------------------------------------------------------------------
+Understand why secondary storage is required.
+---------------------------------------------
+
+1) Permanent Data Storage:
+Primary purpose: To store data persistently, even when the power is off.
+Unlike RAM, which is volatile, secondary storage retains data without constant power.
+This allows users to save work, install software, and maintain long-term data archives.
+
+
+2) Large Capacity:
+Secondary storage devices typically offer much larger capacities than primary memory (RAM).
+This allows for storage of vast amounts of data, including operating systems, applications, user files, and multimedia content.
+As data requirements grow, secondary storage can be easily expanded or upgraded.
+
+
+3) Cost-Effectiveness:
+Per gigabyte, secondary storage is significantly cheaper than RAM or other forms of primary memory.
+This makes it economically viable to store large amounts of data that aren't needed for immediate processing.
+
+
+4) Data Portability:
+Many forms of secondary storage (like external hard drives, SSDs, or USB flash drives) are portable.
+This allows for easy data transfer between different computers or backup of important information.
+
+
+5) Backup and Recovery:
+Secondary storage is essential for creating backups of critical data.
+In case of system failures or data loss, these backups can be used to recover information.
+
+
+6) Offline Access:
+Data stored in secondary storage can be accessed even when the computer is offline.
+This is particularly useful for mobile devices or in situations with limited network connectivity.
+
+
+7) Program and OS Storage:
+Secondary storage holds the operating system, applications, and user programs.
+This allows the system to reload all necessary software after a reboot or power cycle.
+
+
+8) Virtual Memory Support:
+Secondary storage can be used as an extension of RAM through virtual memory techniques.
+This allows the system to run more or larger programs than would fit in physical RAM alone.
+
+
+9) Data Archiving:
+For long-term storage of historical or infrequently accessed data.
+Useful for compliance, research, and maintaining organizational knowledge.
+
+
+10) Scalability:
+As data needs grow, secondary storage can be easily expanded without major system changes.
+This scalability is crucial for evolving business and personal computing needs.
+
+
+11) Separation of Storage and Processing:
+By keeping data separate from the processing unit, it allows for more flexible system architectures.
+This separation also contributes to data safety, as processing errors are less likely to directly corrupt stored data.
