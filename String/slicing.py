@@ -1,5 +1,6 @@
 name = "ahmedabad"
-x = name[ : : ]    #ahmedeaba
+# Syntax: [start argument : stop argument : step argument]
+# x = name[               :               :              ]    #ahmedeaba
 # print(x)
 # print(name[0::])
 # print(name[0::2])      #it will return only odd char from name   or it will return 0,2,4,6,8
