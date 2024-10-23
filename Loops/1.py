@@ -17,3 +17,6 @@ i = "HELLO WORLD"
 
 for i in range(5):
     print(i)
+
+
+# 1 to 30 print karo but increment by 2
