@@ -13,13 +13,19 @@
 #     print(i)
 
 
-i = "HELLO WORLD"
+# i = "HELLO WORLD"
 
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 
 
 # 1 to 30 print karo but increment by 2
 # output: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
 # 1 + 2 => 3
 # 3 + 2 => 5
+
+for i in range(1, 30, 2):
+    print(i)
+
+
+#  initialization = 1 , condition = 50, increment = 3
