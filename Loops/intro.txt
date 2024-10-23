@@ -1,0 +1,35 @@
+there is total 2 types of loops in python
+
+1) entry controlled loop
+
+    : for loop
+    : while loop
+
+python supports only entry controlled loop
+
+for -> when we know the no of iterations in advance
+while -> when we dont know the no of iterations in advance
+
+
+we dont have exit controlled loop in python
+2) exit controlled loop
+    : do while loop
+
+
+syntax of for loop:
+
+for i in range(5):
+    print(i)
+
+
+i = 0;  -->  initialization
+i < 5;  -->  condition
+i++;    -->  increment/decrement
+
+// in c lang.
+for (int i = 0; i < 5; i++) {
+    printf("%d", i);
+}
+
+
+range() function:
