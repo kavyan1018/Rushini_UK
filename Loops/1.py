@@ -19,13 +19,17 @@
 #     print(i)
 
 
-# 1 to 30 print karo but increment by 2
+# 1 to 30 print but increment by 2
 # output: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
 # 1 + 2 => 3
 # 3 + 2 => 5
 
 for i in range(1, 30, 2):
     print(i)
+# output: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
 
 
-#  initialization = 1 , condition = 50, increment = 3
+
+# 1 to 50 print but increment by 3
+# output: 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49
+
