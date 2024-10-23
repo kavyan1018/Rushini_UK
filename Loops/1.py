@@ -20,3 +20,6 @@ for i in range(5):
 
 
 # 1 to 30 print karo but increment by 2
+# output: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
+# 1 + 2 => 3
+# 3 + 2 => 5
