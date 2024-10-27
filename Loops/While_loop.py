@@ -16,17 +16,26 @@
 
 # even number
 # 1st way
-i = 0
-while i <= 50:
-    print(i)
-    i += 2
+# i = 0
+# while i <= 50:
+#     print(i)
+#     i += 2
 
 
 # even number 2nd way(using if condition)
 # odd number 1st (whithout using if condition) and 2nd way (using if condition)
 
 # 1st way
+# i = 1
+# while i <= 50:
+#     print(i)
+#     i += 2
+
+
+# 2nd way
+
 i = 1
 while i <= 50:
-    print(i)
-    i += 2
+    if i % 2 == 1:
+        print(i)
+    i += 1
