@@ -9,3 +9,11 @@ print("sum of Natural Numbers are :" ,sum)
 
 
 # Home work : print sum of first 10 natural number using while loop
+
+sum = 0
+i = 1
+while i <= 10:
+    sum += i
+    i += 1
+
+print("sum of Natural Numbers are :" ,sum)
