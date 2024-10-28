@@ -24,14 +24,20 @@
 # 	not prime -> 4 6 9... using while loop
 
 
-a = input("Enter a number : ")
-a = int(a)
+# a = input("Enter a number : ")
+# a = int(a)
 
-i = 2
-while i < a:
-    if a % i == 0:
-        print("Not Prime")
-        break
-    i += 1
-else:
-    print("Prime")
+# i = 2
+# while i < a:
+#     if a % i == 0:
+#         print("Not Prime")
+#         break
+#     i += 1
+# else:
+#     print("Prime")
+
+
+# reversed loop
+
+for i in range(10, 0, -1):
+    print(i)
