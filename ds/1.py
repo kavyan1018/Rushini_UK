@@ -27,7 +27,7 @@
 
 
 # Example 1: Create an array and display its elements
-
+'''
 import array as arr
 
 a = arr.array('i',[1,2,3])
@@ -35,3 +35,22 @@ a = arr.array('i',[1,2,3])
 print("First element:", a[0])
 print("Second element:", a[1])
 print("Third element:", a[2])
+
+'''
+
+
+# take input from user and display the array elements
+
+'''
+import array as arr
+
+a = arr.array('i',[])
+n = int(input("Enter the length of the array:"))
+
+for i in range(n):
+    x = int(input("Enter the next value:"))
+    a.append(x)
+
+print(a)
+
+'''
