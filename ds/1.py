@@ -54,3 +54,20 @@ for i in range(n):
 print(a)
 
 '''
+
+
+# take input 2 numerbs from user do addition and display the result
+
+import array as arr
+
+numbers = arr.array('f', [0, 0])
+
+numbers[0] = float(input("Enter the first number: "))
+numbers[1] = float(input("Enter the second number: "))
+
+result = numbers[0] + numbers[1]
+
+print("The sum is:", result)
+
+
+# subtration , multiplication, division
