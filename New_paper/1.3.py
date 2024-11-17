@@ -32,14 +32,30 @@
 #    print(f"Volume {answer}") 
 
 
-again = True
-while again == True:
-    a = int(input())
-    if a > 0:
-        counter = 0
-        while a > 0:
-            a = a // 3
-            counter += 1
-    else:
-        again = False
-    print(a)
+# again = True
+# while again == True:
+#     a = int(input())
+#     if a > 0:
+#         counter = 0
+#         while a > 0:
+#             a = a // 3
+#             counter += 1
+#     else:
+#         again = False
+#     print(a)
+
+
+
+# Question 7
+
+n = int(input("ENTER THE TOTAL NUMBER OF PERSONS :"))
+
+PRICE = 15
+DISCOUNT = 5
+
+TOTAL = n * PRICE
+
+if n >= 6:  
+    TOTAL -= DISCOUNT
+
+print(f"Total price is {TOTAL}")
