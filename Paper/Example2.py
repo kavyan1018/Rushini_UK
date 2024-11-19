@@ -119,3 +119,7 @@ elif percentage >= 40 and percentage < 50:
     print("Grade G")
 else :
     print("Your are Fail !")
+
+
+
+
