@@ -48,14 +48,33 @@
 
 # Question 7
 
-n = int(input("ENTER THE TOTAL NUMBER OF PERSONS :"))
+# n = int(input("ENTER THE TOTAL NUMBER OF PERSONS :"))
 
-PRICE = 15
-DISCOUNT = 5
+# PRICE = 15
+# DISCOUNT = 5
 
-TOTAL = n * PRICE
+# TOTAL = n * PRICE
 
-if n >= 6:  
-    TOTAL -= DISCOUNT
+# if n >= 6:  
+#     TOTAL -= DISCOUNT
 
-print(f"Total price is {TOTAL}")
+# print(f"Total price is {TOTAL}")
+
+
+
+
+names = ['Natalie', 'Alex', 'Roshana']
+scores = [78, 81, 72, 27, 51, 54, 52, 55, 59]
+count = 0
+
+
+for i in range(3):  
+    person = names[i]
+    print(f"Student: {person}")  
+    for j in range(3):  
+        print(j + 1)  
+        result = scores[i * 3 + j]  
+        print(result)  
+        count += 1
+
+
