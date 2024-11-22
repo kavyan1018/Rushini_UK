@@ -1,0 +1,56 @@
+Cyber Security
+----------------------------------
+Definition:
+Cyber security involves processes, practices, and technologies designed to protect networks, computers, programs, and data from unauthorized access, attacks, or damage.
+
+Main Purposes:
+
+1.To safeguard sensitive information.
+2.To ensure the integrity, confidentiality, and availability of data.
+3.To prevent cyber attacks, such as malware, phishing, and unauthorized access.
+
+
+Cyber Security Threats
+-------------------------------------
+Common Threats:
+
+1) Social Engineering Techniques: Manipulating individuals to disclose confidential information.
+
+    -> Blagging (Pretexting): Using an invented scenario to trick individuals into sharing private data.
+    -> Phishing: Fraudulently obtaining information through deceptive emails or messages.
+    -> Shouldering: Observing sensitive information over someone's shoulder (e.g., PIN numbers at ATMs).
+
+2) Malicious Code (Malware): Hostile software designed to damage or disrupt systems.
+    ->  Computer Virus: Infects and spreads through files or systems.
+    ->  Trojan: Disguises itself as legitimate software while causing harm.
+    ->  Spyware: Secretly gathers user information.
+
+3) Pharming: Redirecting traffic from legitimate websites to fraudulent ones.
+
+4) Weak and Default Passwords: Easily guessable passwords that provide unauthorized access.
+
+5) Misconfigured Access Rights: Granting incorrect or excessive privileges.
+
+6) Removable Media: Portable devices (e.g., USBs) introducing malware into systems.
+
+7) Unpatched or Outdated Software: Vulnerabilities in outdated systems exploited by attackers.
+
+
+Penetration Testing
+-----------------------------
+Definition:
+A process of simulating cyber attacks to identify and address security weaknesses.
+
+Types:-
+1) Internal Testing: Simulates an attack from within the organization, often using credentials.
+2) External Testing: Simulates an attack from outside the organization without prior knowledge of the system.
+
+
+Detection and Prevention of Cyber Security Threats
+----------------------------------------------------------
+Methods:
+1) Biometric Measures: Use of fingerprints, facial recognition, etc., particularly on mobile devices.
+2) Password Systems: Implementing strong and unique passwords.
+3) CAPTCHA: Preventing automated attacks by verifying human interaction.
+4) Email Confirmations: Verifying user identity via confirmation emails.
+5) Automatic Software Updates: Ensuring systems are patched against known vulnerabilities.
