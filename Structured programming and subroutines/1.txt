@@ -1,0 +1,131 @@
+Let’s dive deeper into specific areas!  
+
+---
+Detailed Examples and Concepts
+--------------------------------------------
+1. Subroutines with Multiple Parameters
+When a subroutine requires more than one parameter, it allows for more flexible operations. Here's an extended example:
+
+Task: Create a program to calculate the perimeter and area of a rectangle.
+
+# ```python
+# def calculate_perimeter(length, width):
+#     """Calculate the perimeter of a rectangle."""
+#     return 2 * (length + width)
+# 
+# def calculate_area(length, width):
+#     """Calculate the area of a rectangle."""
+#     return length * width
+# 
+# def main():
+#     """Main procedure to input dimensions and display results."""
+#     length = float(input("Enter the length of the rectangle: "))
+#     width = float(input("Enter the width of the rectangle: "))
+#     
+#     # Call subroutines with parameters
+#     perimeter = calculate_perimeter(length, width)
+#     area = calculate_area(length, width)
+#     
+#     print(f"Perimeter: {perimeter}")
+#     print(f"Area: {area}")
+# 
+# # Run the program
+# if __name__ == "__main__":
+#     main()
+# ```
+
+
+2. Parameters and Return Values
+--------------------------------------------
+Parameters allow data to flow into a subroutine, while return values allow data to flow **out**.
+
+Task: Create a subroutine to check if a number is prime and return the result.
+
+#```python
+#def is_prime(number):
+#    """Check if a number is prime."""
+#    if number <= 1:
+#        return False
+#    for i in range(2, int(number ** 0.5) + 1):
+#        if number % i == 0:
+#            return False
+#    return True
+#
+## Call and use the return value
+#num = int(input("Enter a number: "))
+#if is_prime(num):
+#    print(f"{num} is a prime number.")
+#else:
+#    print(f"{num} is not a prime number.")
+#```
+
+---
+
+3. Local Variables in Subroutines
+-----------------------------------------
+Local variables are accessible only within the subroutine where they are defined.
+
+Why Use Local Variables?
+- Avoids conflicts with variables in other parts of the program.
+- Limits the scope of variables for better control.
+
+Example:
+
+# ```python
+# def calculate_discount(price, discount_rate):
+#     """Calculate the discounted price."""
+#     discounted_price = price - (price * discount_rate / 100)  # Local variable
+#     return discounted_price
+# 
+# # Variables outside the subroutine won't conflict with `discounted_price`
+# price = 500
+# discount_rate = 10
+# final_price = calculate_discount(price, discount_rate)
+# print(f"Final Price: {final_price}")
+# ```
+
+---
+
+4. Structured Programming in Action
+---------------------------------------------
+Let’s build a simple quiz program that uses subroutines for modularization.
+
+Task: A quiz program with structured design.
+
+# ```python
+# def ask_question(question, correct_answer):
+#     """Ask a question and return True if the answer is correct."""
+#     answer = input(question + " ")
+#     return answer.lower() == correct_answer.lower()
+# 
+# def calculate_score(results):
+#     """Calculate the total score from the results."""
+#     return sum(results)
+# 
+# def main():
+#     """Main procedure to run the quiz."""
+#     print("Welcome to the Quiz!")
+#     questions = [
+#         ("What is the capital of France?", "Paris"),
+#         ("What is 5 + 7?", "12"),
+#         ("What programming language is this?", "Python")
+#     ]
+#     
+#     results = []
+#     for question, correct_answer in questions:
+#         results.append(ask_question(question, correct_answer))
+#     
+#     score = calculate_score(results)
+#     print(f"You got {score}/{len(questions)} questions correct!")
+# 
+# if __name__ == "__main__":
+#     main()
+# ```
+
+---
+
+5. Advantages of Structured Programming
+--------------------------------------------
+Scenario: Imagine building a calculator program without subroutines. The code would be repetitive, harder to debug, and difficult to modify. By using structured programming:
+- Operations like addition, subtraction, etc., are encapsulated in reusable subroutines.
+- Variables and logic are modularized for clarity.
