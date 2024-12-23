@@ -1,3 +1,36 @@
 Ans - 1 :
 --------------
 An algorithm is a step-by-step procedure or set of instructions designed to perform a specific task or solve a particular problem......
+
+
+
+
+
+
+
+
+
+Question 7-(A):
+
+The term "pixel" refers to the smallest unit of a digital image or display that can be individually controlled or represented. It is short for "Picture Element" and acts as a single point in a graphical image or on a digital screen.
+
+
+Question 7-(B):
+
+Divide into pixels : Each squre in the grid corresponds to one pixel in the image. since the grid is 5x5 , there are 25 pixels.
+
+Assign the colors : the color depth of 2 bits allows for 4 possible color 
+Ex : 00 - white color
+     01 - light gray 
+     11 - black 
+
+Each pixel is assign a 2 bit value based on its color
+
+for the first row : 00, 00, 00, 00, 11
+for the second row : 00, 01, 01, 11, 11
+for the third row : 00, 01, 01, 11, 11
+for the fourth row : 00, 11, 11, 11, 11
+for the fifth row : 11, 11, 11, 11, 11
+
+
+Bitmap Representation: This sequence of 2-bit values is combined into a data structure that represents the entire image.
