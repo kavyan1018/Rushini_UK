@@ -1,0 +1,24 @@
+The original problem is split into smaller, simpler parts.
+
+Each smaller problem gets solved, often by breaking it down further.
+
+Eventually, all the solutions are combined to solve the original big problem.
+
+
+In merge sort, it divides the data into two equal parts, sorts each half by applying the same method, and then combines these sorted halves into a complete sorted list.
+
+
+
+                                8, 2 , 6 , 4, 5     // Divide into 2 same parts
+
+
+                    8   2                    6   4   5     // Divide into 2 same parts
+                    |   |                    |   |   |
+                    -----                    ---------
+                    2   8                    4   6   5     // Sort each half
+                    |   |                    |   |   |
+                    -----                    ---------
+                    2   8                    4   5   6
+                    |   |                    |   |   |         
+                    ----------------------------------
+                            2   4   5   6   8
