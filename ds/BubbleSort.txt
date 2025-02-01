@@ -1,4 +1,6 @@
+Bubble Sort is one of the most straightforward sorting algorithms. Its like organizing a line of people by making them swap places if they’re standing in the wrong order. It’s called “bubble” because just like bubbles rising up in water, the biggest number in the list gradually moves to the right place.
 
+To sort, we check the list multiple times, comparing each pair of numbers. If they’re in the wrong order, we swap them. We keep doing this until everything is in the correct order.
 
 8, 2 , 6 , 4, 5, 9 ,7
 
